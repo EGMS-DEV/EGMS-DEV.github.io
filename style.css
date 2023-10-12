@@ -159,7 +159,10 @@ button {
   box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   transition: all .3s;
     width: 1050px;
-    background: linear-gradient(45deg, #ff3333, #ffb833, #ffff33, #00b300, #3333ff, #b300b3)
+    background: linear-gradient(90deg, #ff00ff, #ff0000, #00ff00, #00ffff); /*rainbow text animation*/
+  -webkit-text-fill-color: #F000;
+  -webkit-background-clip: text;
+  -webkit-animation: animated_background 100s linear infinite;
 }
 /* Styling for the body */
 body {
