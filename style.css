@@ -140,7 +140,10 @@ button {
   color: black;
   text-shadow: 1px 1px #1f272b;
   border: 2.5px solid black;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
+    background: linear-gradient(90deg, #ff00ff, #ff0000, #00ff00, #00ffff); /*rainbow text animation*/
+  -webkit-text-fill-color: #F000;
+  -webkit-background-clip: text;
+  -webkit-animation: animated_background 100s linear infinite;
   margin-bottom: 19px;
     width: 400px;
     font-size: 40px;
