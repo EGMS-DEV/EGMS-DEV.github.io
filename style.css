@@ -163,7 +163,7 @@ button {
 }
 /* Styling for the body */
 body {
-    background-color: #4d4d4d;
+    background-color: solid darkblue;
     border: 6px solid darkred;
     border-radius: 0px;
     font-family: cursive;
