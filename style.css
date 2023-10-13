@@ -158,6 +158,10 @@ button {
     width: 1050px;
     background: linear-gradient(45deg, #ff3333, #ffb833, #ffff33, #00b300, #3333ff, #b300b3)
 }
+
+version {
+    display: inline-block
+}
 /* Styling for the body */
 body {
     background-color: #4d4d4d;
