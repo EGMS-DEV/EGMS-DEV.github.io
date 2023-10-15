@@ -1,0 +1,15 @@
+/* Styling for the body */
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+}
+
+img {
+    margin-left: 500px;
+        width: 437px;
+    height: 531px;
+}
+
+p {
+    text-align: center
+}
